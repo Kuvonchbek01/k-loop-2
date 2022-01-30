@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dots{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #AAAAAA;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.card-heading-1{
+    display: flex;
+    justify-content: center;
+}
+
+.card-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #35393C;
+}
+.card-devider {
+    margin: 0;
+    margin-bottom: 15px;
+    opacity: 0.5;
+}
+.visa-section {
+    display: flex;
+    align-items:center;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.visa-section:hover{
+    background-color: rgba(117, 99, 99, 0);
+}
+.card-img {
+    margin-right: 15px;
+    margin-top: 0;
+}
+.card-text {
+    margin: 0;
+    text-transform: uppercase;
+    color: #BAB2AD;
+}
+.mastercard-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.mastercard-section-action {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.mastercard-text{
+    color: #000;
+}
+
+.mastercard-img{
+    padding-right: 15px;
+}
+.maestro-section{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.maestro-img {
+    margin-right: 15px;
+}
+.main-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #598BDD;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: auto;
+    padding-left: auto;
+    border-radius:0 0 5px 5px ;
+    text-decoration: none;
+    color:#fff ;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-style: normal;
+}
+
+.main-button:hover{
+   background-color: #6698e7;
+}
+
+.main-button:active{
+    margin-top: 1px;
+}
+h2{
+    margin: 0;
+    margin-right: 5px;
+    
+}
